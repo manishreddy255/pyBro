@@ -158,9 +158,96 @@ name = 'manish'
 # print(website[slice])
 # print(website2[slice]"
 # print(website.split(":"))
-#*******Control Structures or if statements ****************
+#*******decision making Structures or if statements ****************
+#if statement  is a block of code that will execute if it's
+#condition is true
+# age = int(input("How old are you? : "))
+#
+# if age >= 21 | age <= 99:
+#     print("you are eligible to drink ")
+# elif age == 100:
+#     print("you have drank for so many years, so just cut on alcohol")
+# elif age < 0:
+#     print("you mother is eligible to drink")
+# else:
+#     print("you are not eligible to drink")
 
-age = int(input("How old are you? : "))
+# in python we have indentations and don't have brackets
+#so and of or and and operations
+
+# logical operators in python
+# they are "and" and "or" operators
+
+# temp = int(input("what is the temperature outside: "))
+#
+# if not(temp >= 0 and temp <= 30):
+#     print("it's ideal temperature")
+# elif not(temp <30 or temp > 30):
+#     print("it's going up macha")
+#for 'and' if both of them are true then only the given statement is true
+#for or if only one statement is true you can get true value
+# there is also a not operator with which you can
+# turn a true to false
+# false to true
+# so by using this condition we reversed the props
+
+
+#**** while loop in python ************
+# i = 1
+# while i == 1:
+#     print("hey how are you")
+
+# name = ""
+#
+# while len(name) == 0:
+#     name = input("Enter your name: ")
+#
+# print("hello " + name)
+
+# name = None
+#
+# while not name:
+#     name = input("hey what is your name: ")
+#
+# print("Hello " + name)
+
+#********** For Loop *************
+# for i in range(10):
+#     print(i+1)
+
+# 50 is inclusive and 100 in not inclusive
+# for i in range(50, 100):
+#     print(i)
+
+# for i in range(50, 100+1, 2):
+#     print(i)
+# it increments 2 at a time
+
+# for i in "bro code":
+#     print(i)
+
+# import  time
+#
+# for seconds in range(10, 0,-1):
+#     print(seconds)
+#     time.sleep(1) # it will sleep for 1 second
+#
+# print("happy new year")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
