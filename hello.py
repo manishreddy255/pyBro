@@ -114,6 +114,55 @@ name = 'manish'
 # print(" So your age is " + str(age) + " then you can  who ever you want")
 
 
+# import math
+#
+# pi = 3.14
+# print(round(pi))
+# print(math.ceil(pi)) # ceil rounds it to upper
+# print(math.floor(pi)) # floor rounds it down
+# print(abs(pi)) #it will give you absolute value of
+# how much far it is from the 0
+# print(pow(34, 6))
+# print(pow(3,2))
+# print(math.sqrt(420))
+# x, y , z = 1, 2, 3
+# print(max(x, y, z))
+# same with min function
+
+#string slicing
+# creating a substring by extracting elements from another string
+# indexing[] [start:stop:step]
+# step is how many you wanna skip
+# name = "manish Reddy"
+# first_name = name[0:2]
+# first_name = name[:2]
+# last_name = name[7:]
+# funky_name = name[::2]
+# print(first_name)
+# print(last_name)
+# print(funky_name)
+# # reverse the string in python
+# reversed_name = name[::-1]
+# print(reversed_name)
+
+# now slice function to create a slice object
+
+# website = "http://google.com"
+# website2 = "http://wikipedia.com"
+#in python we have positive and negative index
+#for everyting so we can't predict the length of domain
+# so we use negative index that is -4 to get results
+# slice = slice(7,-4)
+# #now we have slice object
+# print(slice)
+# print(website[slice])
+# print(website2[slice]"
+# print(website.split(":"))
+#*******Control Structures or if statements ****************
+
+age = int(input("How old are you? : "))
+
+
 
 
 
